@@ -1,6 +1,6 @@
 # DayZ Cleanup Script
 
-This script is used to delete log files, RPT files, and mdmp files from the DayZ folder. This can help free up disk space and resolve certain issues in the game.
+This script is used to delete log files, RPT files, and mdmp files from the DayZ folder. This can help free up disk space.
 
 ## Prerequisites
 
@@ -11,7 +11,7 @@ This script is used to delete log files, RPT files, and mdmp files from the DayZ
 
 ## Installation
 
-1. Go to the [GitHub repository](https://github.com/your-username/your-repo) where the `dayz_cleanup.bat` file is located.
+1. Go to the [GitHub repository](https://github.com/Jubaroo/Start_Dayz/blob/main/Start_Dayz.bat) where the `dayz_cleanup.bat` file is located.
 2. Click the "Code" button and select "Download ZIP" to download the repository as a ZIP file.
 3. Extract the ZIP file to a location on your computer.
 4. Open the extracted folder and locate the `dayz_cleanup.bat` file.
