@@ -25,7 +25,12 @@ if exist (*.log *.RPT *.mdmp) (
 )
 
 if "%files_deleted%"=="true" (
-  for /f "delims=" %%a in ('echo %total_size%') do echo Total size of deleted files: %%~za MB
+  if %total_size% gtr 1048576 (
+    for /f "delims=" %%a in ('echo %total_size%') do echo Total size of deleted files: %%~za MB
+  ) else (
+    set /a "total_size_kb=%total_size%/1024"
+    for /f "delims=" %%a in ('echo %total_size_kb%') do echo Total size of deleted files: %%~za KB
+  )
 ) else (
   echo No files were deleted.
 )
